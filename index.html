@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMW</title>
+    <link rel="shortcut icon" href="img/icons8-테슬라-모델-x-30.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-top">
+                <div class="center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="center">
+                    <div class="navi-area">
+                        <div class="menu-icon">
+                            <div class="menu-btn">
+                                <a href="#">
+                                    <img src="img/menu-icon.svg" alt="menu-icon">
+                                </a>
+                            </div>
+                            <div class="logo2">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">모델</a></li>
+                                <li><a href="#">전기차</a></li>
+                                <li><a href="#">내 차량 만들기</a></li>
+                                <li><a href="#">구매하기</a></li>
+                            </ul>
+                        </nav>
+                        <div class="member">
+                            <ul>
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">SIGNUP</a></li>
+                                <li><a href="#">
+                                    <span class="search-icon"><img src="img/211818_search_icon.svg" alt="search"></span>
+                                    <span class="close-icon"><img src="img/10758949_x_icon.svg" alt="close"></span>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="center">
+                <div class="main">
+                    <div class="swiper mainSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/slide1.jpg" alt="X2">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>THE NEW X2</h2>
+                                            <p>BMW X2</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/slide22.jpg" alt="X2">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>THE NEW i7</h2>
+                                            <p>BMW i7</p>
+                                        </div> 
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/slide33.jpg" alt="X2">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>THE NEW M4</h2>
+                                            <p>BMW M4</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="img/slide44.jpg" alt="X2">
+                                            <p></p>
+                                        </div>
+                                        <div class="txt-box">
+                                            <h2>BMW Z4 M40i</h2>
+                                            <p>BMW Z4 M40i</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!--swiper-wrapper end-->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <div class="title">
+                    <h1>BMW 차를 소개합니다.</h1>
+                    <a href="#">더보기 <i><img src="img/4115237_add_plus_icon.svg" alt=""></i>
+                    </a>
+                </div>
+                <div class="container">
+                    <!-- scrollTrigger의 pin 영역 -->
+                    <div class="left-con">
+                        <!-- css에서 photo에 hover하면 이미지가
+                         커지는 애니메이션 -->
+                        <div class="photo main">
+                            <img src="img/z41.jpg" alt="메인">
+                        </div>
+                        <p>BMW Z4 M40i 로드스터 익스테리어</p>
+                    </div>
+                    <div class="right-con">
+                        <!-- short 클래스는 높이 :300 -->
+                         <!-- long 클래스는 높이 : 400 -->
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/photo1.jpg" alt="z4">
+                                </div>
+                                <p>M 에어로다이내믹 패키지.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/20231024133242_6Zr3tjTO.jpg" alt="">
+                                </div>
+                                <p>프리봄 배기 파이브.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo long">
+                                <img src="img/photo2.jpg" alt="">
+                                </div>
+                                <p>소프트탑.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/photo3.jpg" alt="z4">
+                                </div>
+                                <p>소프트탑.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo long">
+                                <img src="img/long.jpg" alt="z4">
+                                </div>
+                                <p>M 스포츠 시트.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/photo4.jpg" alt="z4">
+                                </div>
+                                <p>M 레더 스티어링 휠.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/photo6.jpg" alt="z4">
+                                </div>
+                                <p>하만 카돈 서라운드 사운드 시스템.</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="">
+                                <div class="photo short">
+                                <img src="img/z44.jpg" alt="z4">
+                                </div>
+                                <p>에어브리더.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <div class="title">
+                    <h1>BMW M 퍼포몬스.</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/g82_mpp_front-splitter-carbon_3to2.webp" alt="m4">
+                                    </div>
+                                    <p>M 퍼포몬스 프런트 카본 스플리터.</p>
+                                </a>
+                        </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/g82_mpp_flicks-carbon_3to2.webp" alt="m4">
+                                    </div>
+                                    <p>M 퍼포몬스 카본 플릭.</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/g82_mpp_rear-wing-carbon_3to2.webp" alt="m4">
+                                    </div>
+                                    <p>M 퍼포몬스 알칸타라 센터 암레스트</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/g82_technology_bmw-os-8-5_3to2.webp" alt="m4">
+                                    </div>
+                                    <p>BMW 오퍼레이팅 시스템 8.5</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/g82_technology_updated-ipa_3to2.webp" alt="m4">
+                                    </div>
+                                    <p>BMW 인텔리전트 퍼스널 어시스턴트.</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="photo">
+                                            <img src="img/g82_technology_my-bmw-app_3to2.webp" alt="m4">
+                                        </div>
+                                        <p>My BMW 앱.</p>
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center">
+                <div class="title">
+                    <h1>BMW 7시리즈.</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/image.1671501190504.jpg" alt="7">
+                                    </div>
+                                    <p>전면 디자인.</p>
+                                </a>
+                            </div>
+                            
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/image.1671437623931.jpg" alt="7">
+                                    </div>
+                                    <p>측면 디자인.</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/image.1663043509895.jpg" alt="m4">
+                                    </div>
+                                    <p>후면 디자인.</p>
+                                </a>
+                          </div>
+                          <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/image.1671069764208.jpg" alt="m4">
+                                    </div>
+                                    <p>혁신적인 콕핏.</p>
+                                </a>
+                          </div>
+                            <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="photo">
+                                            <img src="img/image.1690178973063.jpg" alt="m4">
+                                        </div>
+                                        <p>웅장한 스케일의<br>
+                                            뒷자석 엔터테인먼트 시스템</p>
+                                    </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <div class="photo">
+                                        <img src="img/image.1720785354629.jpg" alt="m4">
+                                    </div>
+                                    <p>파노라마 글라스 루프<br>
+                                    스카이 라운지.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="title">
+                    <h1>BMW  XM 레이블 레드</h1>
+                    <a href="#">더보기 <i><img src="img/4115237_add_plus_icon.svg"
+                         alt="더하기"></i></a>
+                </div>
+                <div class="container">
+                        <div class="left-con">
+                            <a href="#">
+                            <div class="photo main">
+                                <img src="img/20231011124028_RivNLJuP.jpg" alt="main">
+                            </div>
+                            <p></p>
+                            </a>
+                        </div>
+                            <div class="right-con">
+                                <div class="photo-box">
+                                    <a href="#">
+                                        <div class="photo middie">
+                                            <img src="img/20231011124028_N2H0uIBu.jpg" alt="r">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="photo-box">
+                                    <a href="#">
+                                        <div class="photo middie">
+                                            <img src="img/image.1720796256312.jpg" alt="r">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="photo-box">
+                                    <a href="#">
+                                        <div class="photo middie">
+                                            <img src="img/image.1720796265721.jpg" alt="r">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="photo-box">
+                                    <a href="#">
+                                        <div class="photo middie">
+                                            <img src="img/image.1664529088343.jpg" alt="r">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="photo-box">
+                                    <a href="#">
+                                        <div class="photo middie">
+                                            <img src="img/image.1664529135198.jpg" alt="r">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <section class="s6">
+            <div class="center">
+                <div class="title">
+                    <h1>BMW</h1>
+                </div>
+                <div class="container">
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/drive.jpg" alt="drive">
+                            </div>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/drive1.jpg" alt="drive">
+                            </div>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/drive2.jpg" alt="drive">
+                            </div>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/drive3.jpg" alt="drive">
+                            </div>
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="center">
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">BMW그룹</a></li>
+                            <li><a href="#">기업소개</a></li>
+                            <li><a href="#">드라이빙 센터</a></li>
+                            <li><a href="#">BMW 공식 채널</a></li>
+                            <li><a href="#">소개</a></li>
+                            <li><a href="#">소개</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/4747497_social media_facebook_icon.svg" alt="face">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/8679433_instagram_fill_icon.svg" alt="face">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/5305164_play_video_youtube_youtube logo_icon.svg" alt="face">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/8679415_kakao_talk_fill_icon.svg" alt="face">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="face">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="center">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <address>
+                        서울시 강남구 도산대로 156(논현동) 대표자 : 강주연 <br>
+                        사업자등록번호 : 104-81-55280 통신판매업신고 : 제 2014-서울강남-00333호<br>
+                        Copyright ⓒBMWKorea. All-right Reserved
+                    </address>
+                    <div class="family">
+                        <a href="#"><p>패밀리 사이트</p>
+                        <span><img src="img/352023_arrow_drop_up_icon.svg" alt=""></span></a>
+                    <div class="sub">
+                        <a href="#">드라이빙 센터</a>
+                        <a href="#">BMW M 타운</a>
+                        <a href="#">BMW 골프컵</a>
+                        <a href="#">프리즌 서울 2024</a>
+                        <a href="#">개인 정보 처리 방침</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="sitemap">
+            <div class="sitemap-in">
+                <a href="#" class="close-btn"><img src="img/10758949_x_icon.svg" alt="close"></a>
+                <div class="sitebox">
+                    <ul>
+                    <div class="memberbox">
+                        <ul>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">SIGNUP</a></li>
+                        </ul>
+                    </div><!-- memberbox -->
+                    <div class="menu1">
+                        <ul>
+                            <li><a href="#">공유하기</a></li>
+                            <li><a href="#">활용사례</a></li>
+                            <li><a href="#">자료정보카드</a></li>
+                        </ul>
+                    </div><!-- menu1 -->
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                <a href="#"><p>i</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                    <ul class="sub">
+                                        <li><a href="#">BMW i7</a></li>
+                                        <li><a href="#">BMW i7 M70</a></li>
+                                        <li><a href="#">BMW iX</a></li>
+                                        <li><a href="#">BMW iX M60</a></li>
+                                    </ul>
+                            </li><!-- 안녕 -->
+                            <li>
+                                <a href="#"><p>X</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                                </a>
+                                    <ul class="sub">
+                                        <li><a href="#">BMW XM</a></li>
+                                        <li><a href="#">BMW XM 레이블 레드</a></li>
+                                        <li><a href="#">BMW X7</a></li>
+                                        <li><a href="#">BMW X7 M60i</a></li>
+                                    </ul>
+                            </li><!-- 사랑방 -->
+                            <li>
+                                <a href="#"><p>M</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                                </a>
+                                    <ul class="sub">
+                                        <li><a href="#">BMW M8 컴페티션 쿠페</a></li>
+                                        <li><a href="#">BMW M5</a></li>
+                                        <li><a href="#">BMW M4</a></li>
+                                        <li><a href="#">BMW M3</a></li>
+                                        <li><a href="#">BMW M2</a></li>
+                                    </ul>
+                            </li><!-- 안방 -->
+                            <li>
+                                <a href="#"><p>Z4</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                                </a>
+                                    <ul class="sub">
+                                        <li><a href="#">BMW Z4 M40i</a></li>
+                                        <li><a href="#">BMW Z4 로드스터</a></li>
+                                    </ul>
+                            </li><!-- 한복 -->
+                        </ul>
+                    </div><!-- menu2 -->
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/4747497_social media_facebook_icon.svg" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/8679433_instagram_fill_icon.svg" alt="inst"></a></li>
+                            <li><a href="#"><img src="img/5305164_play_video_youtube_youtube logo_icon.svg" alt="youtube"></a></li>
+                            <li><a href="#"><img src="img/8679415_kakao_talk_fill_icon.svg" alt="kakao"></a></li>
+                            <li><a href="#"><img src="img/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="twitter"></a></li>
+                        </ul>
+                    </div>
+                    </ul>
+                </div><!-- sitebox -->                
+            </div><!-- sitemap-in -->  
+            <div class="sitemap-bg"></div>  
+        </div><!-- sitemap -->
+        <div class="search-area">
+            <div class="search-bg"></div>
+            <div class="search-in">
+                <div class="input-area">
+                    <input type="search" name="search" placeholder="검색어를 입력해 주세요." >
+                    
+                    <button type="button">
+                        <img src="img/211818_search_icon.svg" alt="검색">
+                    </button>
+                    
+                </div><!-- input-area -->
+            </div><!-- search-in -->
+        </div><!-- search-area -->
+    </div><!-- wrap -->
+    <div class="top"><a href="#">TOP</a></div>
+</body>
+</html>
